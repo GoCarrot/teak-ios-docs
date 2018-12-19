@@ -1,0 +1,9 @@
+0.15.0
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * User profile
+    * Batching for trackEvent and user profile
+:Bug Fixes:
+    * Circular reference in expanded push notification view fixed

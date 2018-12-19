@@ -1,0 +1,8 @@
+0.12.1
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * Supports iOS 10 push delegate ``application:didReceiveRemoteNotification:fetchCompletionHandler:``
+:Bug Fixes:
+    * Enable Bitcode support

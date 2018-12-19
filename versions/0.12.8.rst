@@ -1,0 +1,9 @@
+0.12.8
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * ``TeakNotification`` now has a ``status`` field
+    * Added ``[TeakNotification cancelAll]``
+:Bug Fixes:
+    * Fix for iOS 8 regex parsing

@@ -1,0 +1,8 @@
+0.12.5
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * ``TeakVersionDict`` exposed
+:Bug Fixes:
+    * Bogus JSON from server could cause a nil dictionary to get sent to nonnull.

@@ -1,0 +1,12 @@
+0.13.8
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * Added ``setApplicationBadgeNumber:``
+    * Added ``hasUserDisabledPushNotifications:``
+    * Added ``openSettingsAppToThisAppsSettings``
+    * ``teakRewardId`` is now included in the ``TeakOnReward`` event
+    * Now will warn via logs if ``unregisterForRemoteNotifications`` is called
+:Bug Fixes:
+    * ``teakRewardId`` in the ``TeakNotificationAppLaunch`` event is now a string (matches Android behavior, and fixes issues in Adobe Air)

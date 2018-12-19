@@ -1,0 +1,9 @@
+0.12.7
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * Added additional lifecycle callback logging
+    * Additional info in the notification/reward payload
+:Bug Fixes:
+    * Fix for crash on Facebook logout (or otherwise sending a null token)

@@ -1,0 +1,9 @@
+0.13.1
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * Media-push supported, basic image/gif only
+:Bug Fixes:
+    * Hotfix from 0.12.9 integrated
+    * Internal system re-write

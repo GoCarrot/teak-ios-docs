@@ -1,0 +1,8 @@
+0.17.0
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * Reward Link Name is now the 'creative name' if the on reward callback was triggered from a deep link
+:Bug Fixes:
+    * None

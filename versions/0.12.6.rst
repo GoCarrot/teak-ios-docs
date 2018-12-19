@@ -1,0 +1,10 @@
+0.12.6
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * Fix parameter checking logic bug in trackEvent
+    * Reduce memory usage via shared ``NSURLSessions``
+    * Fix duplicate ``identifyUser`` call

@@ -1,0 +1,8 @@
+0.12.2
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * No longer DDoS ourselves with remote logging

@@ -1,0 +1,10 @@
+0.13.6
+------
+:Breaking Changes:
+    * Now requires additional frameworks:
+        * AVFoundation.framework
+        * MobileCoreServices.framework
+:New Features:
+    * Interactive notifications
+:Bug Fixes:
+    * None
