@@ -1,0 +1,9 @@
+2.0.0
+-----
+:Breaking Changes:
+    * ``hasUserDisabledPushNotifications`` -> ``notificationState``
+:New Features:
+    * None
+:Bug Fixes:
+    * Fixed an error in ``determineCurrentPushStateWithCompletionHandler:`` which prevented proper state detection of push notifications
+    * Cache ``logRemote``
