@@ -16,6 +16,7 @@ Getting started with Teak on iOS
     Home <https://teak.readthedocs.io/en/latest/>
     Adobe AIR <https://teak.readthedocs.io/projects/air/en/latest/index.html>
     Unity <https://teak.readthedocs.io/projects/unity/en/latest/index.html>
+    Android <https://teak.readthedocs.io/projects/android/en/latest/index.html>
 
 .. toctree::
     :caption: iOS
@@ -23,5 +24,5 @@ Getting started with Teak on iOS
     :hidden:
     :glob:
 
+    third-party
     changelog
-
