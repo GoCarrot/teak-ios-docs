@@ -3,6 +3,9 @@ Third-Party Code in the Teak SDK
 
 isProductionProvisioningProfile
 -------------------------------
+
+.. highlight:: text
+
 Teak uses the ``isProductionProvisioningProfile()`` function from the Urban Airship SDK under the license terms::
 
     Copyright 2009-2016 Urban Airship Inc. All rights reserved.
@@ -34,4 +37,4 @@ Teak uses the ``AmIBeingDebugged()`` function from `Apple Technical Q&A QA1361 <
 
 uiimage-from-animated-gif
 -------------------------
-Teak uses code from `uiimage-from-animated-gif <https://github.com/mayoff/uiimage-from-animated-gif>`_.
+Teak uses code from `uiimage-from-animated-gif <https://github.com/mayoff/uiimage-from-animated-gif>`_ which is in the public domain.
