@@ -38,3 +38,7 @@ Teak uses the ``AmIBeingDebugged()`` function from `Apple Technical Q&A QA1361 <
 uiimage-from-animated-gif
 -------------------------
 Teak uses code from `uiimage-from-animated-gif <https://github.com/mayoff/uiimage-from-animated-gif>`_ which is in the public domain.
+
+LibTomMath
+----------
+Teak uses `LibTomMath <https://github.com/libtom/libtommath>`_.
