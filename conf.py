@@ -191,8 +191,8 @@ with open('global.irst', 'r') as f:
 # Setup
 def cmp_versions(a, b):
     v = re.compile('^(\d+)\.(\d+)\.(\d+)')
-    av = map(lambda x: map(int, x), v.findall(a))[0]
-    bv = map(lambda x: map(int, x), v.findall(b))[0]
+    av = list(map(lambda x: map(int, x), v.findall(a)))[0]
+    bv = list(map(lambda x: map(int, x), v.findall(b)))[0]
 
     if av[0] > bv[0]: return 1
     elif av[0] < bv[0]: return -1
