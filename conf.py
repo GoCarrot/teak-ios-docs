@@ -19,7 +19,9 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import os, re, subprocess, functools
+import os, re, subprocess
+from functools import cmp_to_key
+
 # read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 # if read_the_docs_build:
 #     subprocess.call('cd .. ; doxygen', shell=True)
