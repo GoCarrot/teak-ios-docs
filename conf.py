@@ -204,7 +204,7 @@ def setup(app):
     changelog = """Changelog
 =========
 """
-    for version in sorted(os.listdir('versions'), cmp_versions, reverse=True):
+    for version in sorted(os.listdir('versions'), key = cmp_versions, reverse=True):
         changelog += '.. include:: versions/{0}\n'.format(version)
     if os.path.isfile('changelog.rst'):
         with open('changelog.rst', 'r') as f:
