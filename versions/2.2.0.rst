@@ -7,4 +7,4 @@
     * ``ms_since_first_event`` is now included in batched requests.
     * ``logListener`` is an assignable delegate which will get called each time the Teak SDK logs an event.
 :Bug Fixes:
-    * None
+    * Fixes background crash if a notification attachment failed to get loaded properly, ``[_UNNotificationServiceExtensionRemoteContext _stageAttachmentsForNotificationContent]``.
