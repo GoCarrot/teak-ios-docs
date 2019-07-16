@@ -1,0 +1,9 @@
+2.3.0
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * Deep links now recieve ``__incoming_path`` and ``__incoming_url``
+    * Adds email to identify user
+:Bug Fixes:
+    * None
