@@ -6,3 +6,4 @@
     * None
 :Bug Fixes:
     * Fixed a bug where playable notifications with custom thumbnails had off-by-one actions.
+    * Use a more robust way of converting NSData to a hex string for push keys.
