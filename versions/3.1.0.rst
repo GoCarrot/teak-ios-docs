@@ -1,0 +1,9 @@
+3.1.0
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * ``teakDeepLink`` is now included in the ``TeakNotificationAppLaunch`` and ``TeakForegroundNotification`` events.
+    * ``teakShowInForeground`` can be specified on a per-notification basis, to allow notifications to be displayed while the app is running.
+:Bug Fixes:
+    * None
