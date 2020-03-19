@@ -4,6 +4,7 @@
     * None
 :New Features:
     * Supports Facebook SDK 6.x
-    * Added ``TeakLogTrace`` Plist setting.
+    * Added ``TeakLogTrace`` Plist setting
+    * Added ``logout``
 :Bug Fixes:
     * None
