@@ -6,5 +6,6 @@
     * Supports Facebook SDK 6.x
     * Added ``TeakLogTrace`` Plist setting
     * Added ``logout``
+    * Added ``teakChannelName`` to the dictionary reported by notification and reward claim events
 :Bug Fixes:
     * None
