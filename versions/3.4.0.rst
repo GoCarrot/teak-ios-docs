@@ -1,0 +1,8 @@
+3.4.0
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * Fixed crash if ``CFBundleShortVersionString`` or ``CFBundleVersion`` were nil
