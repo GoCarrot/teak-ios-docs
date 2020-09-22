@@ -1,8 +1,8 @@
 3.4.0
 -----
 :Breaking Changes:
-    * None
+    * SDK is now built using Xcode 11.3.1
 :New Features:
-    * None
+    * Added ``TeakLaunchedFromLink`` event
 :Bug Fixes:
     * Fixed crash if ``CFBundleShortVersionString`` or ``CFBundleVersion`` were nil
