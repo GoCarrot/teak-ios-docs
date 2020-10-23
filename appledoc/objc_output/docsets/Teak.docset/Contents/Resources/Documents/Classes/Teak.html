@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Teak Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/Teak" class="dashAnchor"></a>
+    <a title="Teak Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="../index.html">Teak 3.4.0 Docs</a>
+          <span class="no-mobile"> (63% documented)</span>
+        </p>
+    
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="../index.html">Teak Reference</a>
+            <img id="carat" src="../img/carat.png" />
+          </span>
+          Teak Class Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>Teak</h1>
+                <div class="declaration">
+                  <div class="language">
+                    
+                    <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">Teak</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                  </div>
+                </div>
+              <p>Teak.</p>
+
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(py)sdkVersion"></a>
+                      <a name="//apple_ref/objc/Property/sdkVersion" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(py)sdkVersion">sdkVersion</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Teak SDK Version.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">sdkVersion</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(py)enableDebugOutput"></a>
+                      <a name="//apple_ref/objc/Property/enableDebugOutput" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(py)enableDebugOutput">enableDebugOutput</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Is debug logging enabled.</p>
+
+<p>Disabled by default in production, enabled otherwise.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">enableDebugOutput</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(py)enableRemoteLogging"></a>
+                      <a name="//apple_ref/objc/Property/enableRemoteLogging" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(py)enableRemoteLogging">enableRemoteLogging</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Is remote logging enabled.</p>
+
+<p>Disabled except under development conditions, or very specific circumstances in production.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">enableRemoteLogging</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(py)logListener"></a>
+                      <a name="//apple_ref/objc/Property/logListener" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(py)logListener">logListener</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The active log listener</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Type%20Definitions.html#/c:Teak.h@T@TeakLogListener">TeakLogListener</a></span> <span class="n">_Nullable</span> <span class="n">logListener</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(cm)initForApplicationId:withClass:andApiKey:"></a>
+                      <a name="//apple_ref/objc/Method/+initForApplicationId:withClass:andApiKey:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(cm)initForApplicationId:withClass:andApiKey:">+initForApplicationId:<wbr>withClass:<wbr>andApiKey:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Set up Teak in a single function call.</p>
+
+<p>This function <em>must</em> be called from no other place than main() in your application&rsquo;s
+ &lsquo;main.m&rsquo; or &lsquo;main.mm&rsquo; file before UIApplicationMain() is called. Ex:</p>
+<pre class="highlight objective_c"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="err">@autoreleasepool</span> <span class="p">{</span>
+        <span class="c1">// Add this line here.
+</span>        <span class="p">[</span><span class="n">Teak</span> <span class="nf">initForApplicationId</span><span class="p">:</span><span class="s">@"your_app_id"</span> <span class="nf">withClass</span><span class="p">:[</span><span class="n">YourAppDelegate</span> <span class="nf">class</span><span class="p">]</span> <span class="n">andApiKey</span><span class="o">:</span><span class="s">@"your_api_key"</span><span class="p">];</span>
+
+        <span class="k">return</span> <span class="n">UIApplicationMain</span><span class="p">(</span><span class="n">argc</span><span class="p">,</span> <span class="n">argv</span><span class="p">,</span> <span class="nb">nil</span><span class="p">,</span> <span class="n">NSStringFromClass</span><span class="p">([</span><span class="n">YourAppDelegate</span> <span class="nf">class</span><span class="p">]));</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">initForApplicationId</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">appId</span>
+                   <span class="nf">withClass</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">Class</span><span class="p">)</span><span class="nv">appDelegateClass</span>
+                   <span class="nf">andApiKey</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">apiKey</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>appId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Teak Application Id</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>appDelegateClass</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Class of your application delegate, ex: [YourAppDelegate class].</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>apiKey</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Your Teak API key.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(cm)sharedInstance"></a>
+                      <a name="//apple_ref/objc/Method/+sharedInstance" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(cm)sharedInstance">+sharedInstance</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Teak singleton.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">Teak</span> <span class="o">*</span><span class="p">)</span><span class="n">sharedInstance</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)identifyUser:"></a>
+                      <a name="//apple_ref/objc/Method/-identifyUser:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)identifyUser:">-identifyUser:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tell Teak how to identify the current user.</p>
+
+<p>This should be how you identify the user in your back-end.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">identifyUser</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">userId</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>userId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The string Teak should use to identify the current user.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)identifyUser:withEmail:"></a>
+                      <a name="//apple_ref/objc/Method/-identifyUser:withEmail:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)identifyUser:withEmail:">-identifyUser:<wbr>withEmail:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tell Teak how to identify the current user.</p>
+
+<p>This should be how you identify the user in your back-end.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">identifyUser</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">userId</span>
+           <span class="nf">withEmail</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">email</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>userId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The string Teak should use to identify the current user.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>email</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The email address for the current user.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)identifyUser:withOptOutList:"></a>
+                      <a name="//apple_ref/objc/Method/-identifyUser:withOptOutList:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)identifyUser:withOptOutList:">-identifyUser:<wbr>withOptOutList:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tell Teak how to identify the current user, with data collection opt-out.</p>
+
+<p>This should be how you identify the user in your back-end.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">identifyUser</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">userId</span>
+      <span class="nf">withOptOutList</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">optOut</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>userId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The string Teak should use to identify the current user.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>optOut</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A list containing zero or more of: TeakOptOutIdfa, TeakOptOutPushKey, TeakOptOutFacebook</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)identifyUser:withOptOutList:andEmail:"></a>
+                      <a name="//apple_ref/objc/Method/-identifyUser:withOptOutList:andEmail:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)identifyUser:withOptOutList:andEmail:">-identifyUser:<wbr>withOptOutList:<wbr>andEmail:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tell Teak how to identify the current user, with data collection opt-out.</p>
+
+<p>This should be how you identify the user in your back-end.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">identifyUser</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">userId</span>
+      <span class="nf">withOptOutList</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">optOut</span>
+            <span class="nf">andEmail</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">email</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>userId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The string Teak should use to identify the current user.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>optOut</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A list containing zero or more of: TeakOptOutIdfa, TeakOptOutPushKey, TeakOptOutFacebook</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>email</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The email address for the current user.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)logout"></a>
+                      <a name="//apple_ref/objc/Method/-logout" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)logout">-logout</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Logout the current user</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">logout</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)trackEventWithActionId:forObjectTypeId:andObjectInstanceId:"></a>
+                      <a name="//apple_ref/objc/Method/-trackEventWithActionId:forObjectTypeId:andObjectInstanceId:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)trackEventWithActionId:forObjectTypeId:andObjectInstanceId:">-trackEventWithActionId:<wbr>forObjectTypeId:<wbr>andObjectInstanceId:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Track an arbitrary event in Teak.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">trackEventWithActionId</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">actionId</span>
+               <span class="nf">forObjectTypeId</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">objectTypeId</span>
+           <span class="nf">andObjectInstanceId</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">objectInstanceId</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>actionId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The identifier for the action, e.g. &lsquo;complete&rsquo;.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>objectTypeId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The type of object that is being posted, e.g. &lsquo;quest&rsquo;.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>objectInstanceId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The specific instance of the object, e.g. &lsquo;gather-quest-1&rsquo;</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)incrementEventWithActionId:forObjectTypeId:andObjectInstanceId:count:"></a>
+                      <a name="//apple_ref/objc/Method/-incrementEventWithActionId:forObjectTypeId:andObjectInstanceId:count:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)incrementEventWithActionId:forObjectTypeId:andObjectInstanceId:count:">-incrementEventWithActionId:<wbr>forObjectTypeId:<wbr>andObjectInstanceId:<wbr>count:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Increment an arbitrary event in Teak.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">incrementEventWithActionId</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">actionId</span>
+                   <span class="nf">forObjectTypeId</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">objectTypeId</span>
+               <span class="nf">andObjectInstanceId</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">objectInstanceId</span>
+                             <span class="nf">count</span><span class="p">:(</span><span class="kt">int64_t</span><span class="p">)</span><span class="nv">count</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>actionId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The identifier for the action, e.g. &lsquo;complete&rsquo;.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>objectTypeId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The type of object that is being posted, e.g. &lsquo;quest&rsquo;.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>objectInstanceId</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The specific instance of the object, e.g. &lsquo;gather-quest-1&rsquo;</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>count</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The amount by which to increment.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)notificationState"></a>
+                      <a name="//apple_ref/objc/Method/-notificationState" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)notificationState">-notificationState</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Push notification authorization state.</p>
+
+<p>If they have disabled push notifications, you can prompt them to re-enable
+ and use openSettingsAppToThisAppsSettings to open the Settings app.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Enums/TeakNotificationState.html">TeakNotificationState</a></span><span class="p">)</span><span class="n">notificationState</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>Notification state, see: TeakNotificationState</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)openSettingsAppToThisAppsSettings"></a>
+                      <a name="//apple_ref/objc/Method/-openSettingsAppToThisAppsSettings" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)openSettingsAppToThisAppsSettings">-openSettingsAppToThisAppsSettings</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Open Settings.app to the settings for this application.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">openSettingsAppToThisAppsSettings</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>YES if Settings.app was opened.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)setApplicationBadgeNumber:"></a>
+                      <a name="//apple_ref/objc/Method/-setApplicationBadgeNumber:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)setApplicationBadgeNumber:">-setApplicationBadgeNumber:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Set the badge number on the icon of the application.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setApplicationBadgeNumber</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">count</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>count</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The number that should be displayed on the icon.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)setNumericAttribute:forKey:"></a>
+                      <a name="//apple_ref/objc/Method/-setNumericAttribute:forKey:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)setNumericAttribute:forKey:">-setNumericAttribute:<wbr>forKey:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Track a numeric player profile attribute.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setNumericAttribute</span><span class="p">:(</span><span class="kt">double</span><span class="p">)</span><span class="nv">value</span> <span class="nf">forKey</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">key</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>key</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The name of the numeric attribute.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>value</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The numeric value to assign.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)setStringAttribute:forKey:"></a>
+                      <a name="//apple_ref/objc/Method/-setStringAttribute:forKey:" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)setStringAttribute:forKey:">-setStringAttribute:<wbr>forKey:<wbr></a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Track a string player profile attribute.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setStringAttribute</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">value</span>
+                    <span class="nf">forKey</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">key</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>key</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The name of the string attribute.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>value</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The string value to assign.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)getDeviceConfiguration"></a>
+                      <a name="//apple_ref/objc/Method/-getDeviceConfiguration" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)getDeviceConfiguration">-getDeviceConfiguration</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Get Teak&rsquo;s configuration data about the current device.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="n">getDeviceConfiguration</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>JSON string containing device info, or null if it&rsquo;s not ready</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)getAppConfiguration"></a>
+                      <a name="//apple_ref/objc/Method/-getAppConfiguration" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)getAppConfiguration">-getAppConfiguration</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Get Teak&rsquo;s configuration data about the current app.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="n">getAppConfiguration</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>JSON string containing device info, or null if it&rsquo;s not ready</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:objc(cs)Teak(im)processDeepLinks"></a>
+                      <a name="//apple_ref/objc/Method/-processDeepLinks" class="dashAnchor"></a>
+                      <a class="token" href="#/c:objc(cs)Teak(im)processDeepLinks">-processDeepLinks</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Process deep links.</p>
+
+<p>Deep links will be processed the sooner of:</p>
+
+<ul>
+<li>The user has been identified</li>
+<li>This method is called</li>
+</ul>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">processDeepLinks</span><span class="p">;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="../Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Classes/Teak.html">Teak</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/TeakLink.html">TeakLink</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/TeakNotification.html">TeakNotification</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Constants.html">Constants</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakAdditionalData">TeakAdditionalData</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakForegroundNotification">TeakForegroundNotification</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakLaunchedFromLink">TeakLaunchedFromLink</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakLinkIncomingUrlKey">TeakLinkIncomingUrlKey</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakLinkIncomingUrlPathKey">TeakLinkIncomingUrlPathKey</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakNotificationAppLaunch">TeakNotificationAppLaunch</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakOnReward">TeakOnReward</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakOptOutFacebook">TeakOptOutFacebook</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakOptOutIdfa">TeakOptOutIdfa</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Constants.html#/c:@TeakOptOutPushKey">TeakOptOutPushKey</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Enums.html">Enumerations</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Enums/TeakNotificationState.html">TeakNotificationState</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Type%20Definitions.html">Type Definitions</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Type%20Definitions.html#/c:TeakLink.h@T@TeakLinkBlock">TeakLinkBlock</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Type%20Definitions.html#/c:Teak.h@T@TeakLogListener">TeakLogListener</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://teak.io" target="_blank" rel="external">Teak.io,</a>. All rights reserved. (Last updated: 2020-10-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>

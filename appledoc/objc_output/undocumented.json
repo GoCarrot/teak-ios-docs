@@ -1,0 +1,180 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakLink.h",
+      "line": 4,
+      "symbol": "TeakLinkIncomingUrlKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakLink.h",
+      "line": 5,
+      "symbol": "TeakLinkIncomingUrlPathKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakLink.h",
+      "line": 7,
+      "symbol": "TeakLinkBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakLink.h",
+      "line": 9,
+      "symbol": "TeakLink",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakLink.h",
+      "line": 11,
+      "symbol": "TeakLink.+registerRoute:name:description:block:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakLink.h",
+      "line": 13,
+      "symbol": "TeakLink.+routeNamesAndDescriptions",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakLink.h",
+      "line": 15,
+      "symbol": "TeakLink.+checkAttributionForDeepLinkAndDispatchEvents:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 5,
+      "symbol": "TeakNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 6,
+      "symbol": "TeakNotification.teakNotifId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 7,
+      "symbol": "TeakNotification.status",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 8,
+      "symbol": "TeakNotification.teakRewardId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 9,
+      "symbol": "TeakNotification.teakScheduleName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 10,
+      "symbol": "TeakNotification.teakCreativeName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 11,
+      "symbol": "TeakNotification.teakChannelName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 12,
+      "symbol": "TeakNotification.originalJson",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 13,
+      "symbol": "TeakNotification.teakDeepLink",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 14,
+      "symbol": "TeakNotification.showInForeground",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 15,
+      "symbol": "TeakNotification.completed",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 17,
+      "symbol": "TeakNotification.-initWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 19,
+      "symbol": "TeakNotification.+scheduleNotificationForCreative:withMessage:secondsFromNow:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 20,
+      "symbol": "TeakNotification.+scheduleNotificationForCreative:secondsFromNow:forUserIds:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 21,
+      "symbol": "TeakNotification.+cancelScheduledNotification:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 22,
+      "symbol": "TeakNotification.+cancelAll",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
+      "line": 24,
+      "symbol": "TeakNotification.-eventUserInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "Teak/Teak.h",
+      "line": 75,
+      "symbol": "TeakNotificationState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/pat/Code/teak-ios"
+}

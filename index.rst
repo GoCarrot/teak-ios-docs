@@ -22,5 +22,8 @@ Getting started with Teak on iOS
     :hidden:
     :glob:
 
+    integration
+    appledoc
+    working-with-teak
     third-party
     changelog

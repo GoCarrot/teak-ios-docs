@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Constants  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Section/Constants" class="dashAnchor"></a>
+    <a title="Constants  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="index.html">Teak 3.4.0 Docs</a>
+          <span class="no-mobile"> (63% documented)</span>
+        </p>
+    
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="index.html">Teak Reference</a>
+            <img id="carat" src="img/carat.png" />
+          </span>
+          Constants  Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>Constants</h1>
+              <p>The following constants are available globally.</p>
+
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakLinkIncomingUrlKey"></a>
+                      <a name="//apple_ref/objc/Constant/TeakLinkIncomingUrlKey" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakLinkIncomingUrlKey">TeakLinkIncomingUrlKey</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nonnull</span> <span class="k">const</span> <span class="n">TeakLinkIncomingUrlKey</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakLinkIncomingUrlPathKey"></a>
+                      <a name="//apple_ref/objc/Constant/TeakLinkIncomingUrlPathKey" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakLinkIncomingUrlPathKey">TeakLinkIncomingUrlPathKey</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nonnull</span> <span class="k">const</span> <span class="n">TeakLinkIncomingUrlPathKey</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakNotificationAppLaunch"></a>
+                      <a name="//apple_ref/objc/Constant/TeakNotificationAppLaunch" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakNotificationAppLaunch">TeakNotificationAppLaunch</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Use this named notification to listen for when your app gets launched from a Teak notification.
+[[NSNotificationCenter defaultCenter] addObserver:self
+                                         selector:@selector(handleTeakNotification:)
+                                              name:TeakNotificationAppLaunch
+                                            object:nil];</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakNotificationAppLaunch</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakOnReward"></a>
+                      <a name="//apple_ref/objc/Constant/TeakOnReward" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakOnReward">TeakOnReward</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Use this named notification to listen for when a reward claim is attempted.
+[[NSNotificationCenter defaultCenter] addObserver:self
+                                         selector:@selector(handleTeakReward:)
+                                              name:TeakOnReward
+                                            object:nil];</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakOnReward</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakForegroundNotification"></a>
+                      <a name="//apple_ref/objc/Constant/TeakForegroundNotification" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakForegroundNotification">TeakForegroundNotification</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Use this named notification to listen for when your app receives a Teak notification while in the foreground.
+[[NSNotificationCenter defaultCenter] addObserver:self
+                                         selector:@selector(handleTeakForegroundNotification:)
+                                              name:TeakForegroundNotification
+                                            object:nil];</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakForegroundNotification</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakAdditionalData"></a>
+                      <a name="//apple_ref/objc/Constant/TeakAdditionalData" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakAdditionalData">TeakAdditionalData</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Use this named notification to listen for when your app receives additional data for the current user.
+[[NSNotificationCenter defaultCenter] addObserver:self
+                                         selector:@selector(handleTeakAdditionalData:)
+                                              name:TeakAdditionalData
+                                            object:nil];</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakAdditionalData</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakLaunchedFromLink"></a>
+                      <a name="//apple_ref/objc/Constant/TeakLaunchedFromLink" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakLaunchedFromLink">TeakLaunchedFromLink</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Use this named notification to listen for when your app is launched from a link created by the Teak dashboard.
+[[NSNotificationCenter defaultCenter] addObserver:self
+                                         selector:@selector(handleTeakLaunchedFromLink:)
+                                              name:TeakLaunchedFromLink
+                                            object:nil];</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakLaunchedFromLink</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakOptOutIdfa"></a>
+                      <a name="//apple_ref/objc/Constant/TeakOptOutIdfa" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakOptOutIdfa">TeakOptOutIdfa</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Value provided to identifyUser:withOptOutList: to opt out of collecting an IDFA for this specific user.</p>
+
+<p>If you prevent Teak from collecting the Identifier For Advertisers (IDFA),
+ Teak will no longer be able to add this user to Facebook Ad Audiences.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakOptOutIdfa</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakOptOutPushKey"></a>
+                      <a name="//apple_ref/objc/Constant/TeakOptOutPushKey" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakOptOutPushKey">TeakOptOutPushKey</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Value provided to identifyUser:withOptOutList: to opt out of collecting a Push Key for this specific user.</p>
+
+<p>If you prevent Teak from collecting the Push Key, Teak will no longer be able
+ to send Local Notifications or Push Notifications for this user.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakOptOutPushKey</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/c:@TeakOptOutFacebook"></a>
+                      <a name="//apple_ref/objc/Constant/TeakOptOutFacebook" class="dashAnchor"></a>
+                      <a class="token" href="#/c:@TeakOptOutFacebook">TeakOptOutFacebook</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Value provided to identifyUser:withOptOutList: to opt out of collecting a Facebook Access Token for this specific user.</p>
+
+<p>If you prevent Teak from collecting the Facebook Access Token,
+ Teak will no longer be able to correlate this user across multiple devices.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Objective-C</p>
+                            <pre class="highlight objective_c"><code><span class="k">extern</span> <span class="n">NSString</span> <span class="o">*</span><span class="k">const</span> <span class="n">_Nonnull</span> <span class="n">TeakOptOutFacebook</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Classes/Teak.html">Teak</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Classes/TeakLink.html">TeakLink</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Classes/TeakNotification.html">TeakNotification</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="Constants.html">Constants</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakAdditionalData">TeakAdditionalData</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakForegroundNotification">TeakForegroundNotification</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakLaunchedFromLink">TeakLaunchedFromLink</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakLinkIncomingUrlKey">TeakLinkIncomingUrlKey</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakLinkIncomingUrlPathKey">TeakLinkIncomingUrlPathKey</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakNotificationAppLaunch">TeakNotificationAppLaunch</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakOnReward">TeakOnReward</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakOptOutFacebook">TeakOptOutFacebook</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakOptOutIdfa">TeakOptOutIdfa</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Constants.html#/c:@TeakOptOutPushKey">TeakOptOutPushKey</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="Enums.html">Enumerations</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Enums/TeakNotificationState.html">TeakNotificationState</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="Type%20Definitions.html">Type Definitions</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Type%20Definitions.html#/c:TeakLink.h@T@TeakLinkBlock">TeakLinkBlock</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Type%20Definitions.html#/c:Teak.h@T@TeakLogListener">TeakLogListener</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://teak.io" target="_blank" rel="external">Teak.io,</a>. All rights reserved. (Last updated: 2020-10-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>
