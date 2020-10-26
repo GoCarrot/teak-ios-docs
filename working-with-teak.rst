@@ -12,15 +12,29 @@ All Teak events will be delayed until ``identifyUser`` is called.
 
 .. important:: This should be the same way that you identify the user in your system, so that when you export data from Teak, it will be easy for you to associate with your own data.
 
-``- (void)identifyUser:(nonnull NSString*)userId``
+::
 
-``- (void)identifyUser:(nonnull NSString*)userId withEmail:(nonnull NSString*)email``
+    - (void)identifyUser:(nonnull NSString*)userId
 
-``- (void)identifyUser:(nonnull NSString*)userId withOptOutList:(nonnull NSArray*)optOut``
+::
 
-``- (void)identifyUser:(nonnull NSString*)userId withOptOutList:(nonnull NSArray*)optOut andEmail:(nullable NSString*)email``
+    - (void)identifyUser:(nonnull NSString*)userId
+               withEmail:(nonnull NSString*)email
 
-``void TeakIdentifyUser(const char* userId, const char* optOutJsonArray, const char* email)``
+::
+
+    - (void)identifyUser:(nonnull NSString*)userId
+          withOptOutList:(nonnull NSArray*)optOut
+
+::
+
+    - (void)identifyUser:(nonnull NSString*)userId
+          withOptOutList:(nonnull NSArray*)optOut
+                andEmail:(nullable NSString*)email
+
+::
+
+    void TeakIdentifyUser(const char* userId, const char* optOutJsonArray, const char* email)
 
 Parameters
     :userId: User identifier, required.
@@ -41,13 +55,23 @@ User Attributes
 ---------------
 Teak allows you to add a limited number of attributes to users. A maximum of 16 string and 16 numeric attributes can be used.
 
-``- (void)setNumericAttribute:(double)value forKey:(NSString* _Nonnull)key``
+::
 
-``void TeakSetNumericAttribute(const char* cstr_key, double value)``
+    - (void)setNumericAttribute:(double)value
+                         forKey:(NSString* _Nonnull)key
 
-``- (void)setStringAttribute:(NSString* _Nonnull)value forKey:(NSString* _Nonnull)key``
+::
 
-``void TeakSetStringAttribute(const char* cstr_key, const char* cstr_value)``
+    void TeakSetNumericAttribute(const char* cstr_key, double value)
+
+::
+
+    - (void)setStringAttribute:(NSString* _Nonnull)value
+                        forKey:(NSString* _Nonnull)key
+
+::
+
+    void TeakSetStringAttribute(const char* cstr_key, const char* cstr_value)
 
 Parameters
     :key: The name of the user attribute.
