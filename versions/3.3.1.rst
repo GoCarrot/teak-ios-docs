@@ -1,0 +1,8 @@
+3.3.1
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * Detects iOS 14 IDFA permission grant.
+:Bug Fixes:
+    * None
