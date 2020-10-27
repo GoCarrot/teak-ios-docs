@@ -196,7 +196,7 @@ texinfo_documents = [
 
 # -- Sidebar --------------------------------------------------------------
 
-docs_common.generate_sidebar(globals(), 'teak-android', './_sidebar.rst.inc')
+docs_common.generate_sidebar(globals(), 'teak-ios', './_sidebar.rst.inc')
 
 ####
 # Global include
