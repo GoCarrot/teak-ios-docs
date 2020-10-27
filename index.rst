@@ -6,24 +6,4 @@
 Getting started with Teak on iOS
 ================================
 
-.. toctree::
-    :caption: Teak Documentation
-    :maxdepth: 2
-    :hidden:
-
-    Home <https://teak.readthedocs.io/en/latest/>
-    Adobe AIR <https://teak.readthedocs.io/projects/air/en/latest/index.html>
-    Unity <https://teak.readthedocs.io/projects/unity/en/latest/index.html>
-    Android <https://teak.readthedocs.io/projects/android/en/latest/index.html>
-
-.. toctree::
-    :caption: iOS
-    :maxdepth: 2
-    :hidden:
-    :glob:
-
-    integration
-    appledoc
-    working-with-teak
-    third-party
-    changelog
+.. include:: _sidebar.rst.inc
