@@ -17,7 +17,7 @@
       <div class="content-wrapper">
         <p>
           <a href="../index.html">Teak 3.4.0 Docs</a>
-          <span class="no-mobile"> (63% documented)</span>
+          <span class="no-mobile"> (79% documented)</span>
         </p>
     
     
@@ -43,31 +43,11 @@
                 <div class="declaration">
                   <div class="language">
                     
-                    <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">TeakNotification</span> <span class="p">:</span> <span class="nc">NSObject</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakNotifId</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">status</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakRewardId</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakScheduleName</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakCreativeName</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakChannelName</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSDictionary</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">originalJson</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakDeepLink</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">atomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showInForeground</span><span class="p">;</span>
-<span class="k">@property</span> <span class="p">(</span><span class="n">atomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">completed</span><span class="p">;</span>
-
-<span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">TeakNotification</span><span class="o">*</span><span class="p">)</span><span class="nf">initWithDictionary</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">dictionary</span><span class="p">;</span>
-
-<span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">TeakNotification</span><span class="o">*</span><span class="p">)</span><span class="nf">scheduleNotificationForCreative</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">creativeId</span> <span class="nf">withMessage</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">message</span> <span class="nf">secondsFromNow</span><span class="p">:(</span><span class="kt">int64_t</span><span class="p">)</span><span class="nv">delay</span><span class="p">;</span>
-<span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">TeakNotification</span><span class="o">*</span><span class="p">)</span><span class="nf">scheduleNotificationForCreative</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">creativeId</span> <span class="nf">secondsFromNow</span><span class="p">:(</span><span class="kt">int64_t</span><span class="p">)</span><span class="nv">delay</span> <span class="nf">forUserIds</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span><span class="o">*</span><span class="p">)</span><span class="nv">userIds</span><span class="p">;</span>
-<span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">TeakNotification</span><span class="o">*</span><span class="p">)</span><span class="nf">cancelScheduledNotification</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">scheduleId</span><span class="p">;</span>
-<span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">TeakNotification</span><span class="o">*</span><span class="p">)</span><span class="n">cancelAll</span><span class="p">;</span>
-
-<span class="k">-</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="n">eventUserInfo</span><span class="p">;</span>
-<span class="k">@end</span></code></pre>
+                    <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">TeakNotification</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
 
                   </div>
                 </div>
-              <p>Undocumented</p>
+              <p>The structure used to represent the results of a TeakNotification operation.</p>
 
             </section>
             <section class="section task-group-section">
@@ -86,14 +66,18 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The identifier for the scheduled notification.</p>
+
+<p>Also accessable via:</p>
+<pre class="highlight objective_c"><code> <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">TeakNotificationGetTeakNotifId</span><span class="p">(</span><span class="n">TeakNotification</span><span class="o">*</span> <span class="n">notif</span><span class="p">)</span>
+</code></pre>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakNotifId</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">teakNotifId</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -113,14 +97,28 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The status of the notification operation.</p>
+
+<p>This will contain the server response, or the error which prevented the operation from being sent to the server.</p>
+
+<p>Errors:</p>
+
+<ul>
+<li>error.parameter.creativeId - creativeId cannot be null or empty</li>
+<li>error.parameter.delayInSeconds - delayInSeconds can not be negative, or greater than one month</li>
+<li>error.parameter.userIds - userIds can not be null or empty</li>
+</ul>
+
+<p>Also accessable via:</p>
+<pre class="highlight objective_c"><code> <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">TeakNotificationGetStatus</span><span class="p">(</span><span class="n">TeakNotification</span><span class="o">*</span> <span class="n">notif</span><span class="p">)</span>
+</code></pre>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">status</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">status</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -140,14 +138,14 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The identifier for the TeakReward attached to the notification, or nil.</p>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakRewardId</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">teakRewardId</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -167,14 +165,14 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The name of the schedule, from the Teak dashboard, or nil.</p>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakScheduleName</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">teakScheduleName</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -194,14 +192,14 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The name of the creative, from the Teak dashboard, or nil.</p>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakCreativeName</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">teakCreativeName</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -221,14 +219,14 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The channel name, from the Teak dashboard, or nil.</p>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakChannelName</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">teakChannelName</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -248,14 +246,14 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The original JSON blob, as an NSDictionary, used to create this structure, or nil.</p>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSDictionary</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">originalJson</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">originalJson</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -275,14 +273,14 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>The deep link associated with this notification, or nil.</p>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">NSString</span><span class="o">*</span> <span class="n">_Nullable</span> <span class="n">teakDeepLink</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">teakDeepLink</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -302,14 +300,14 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>YES if this notification will be shown when the game is in the foreground.</p>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showInForeground</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">showInForeground</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -329,14 +327,18 @@
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Undocumented</p>
+                          <p>YES if the notification operation has completed.</p>
+
+<p>Also accessable via:</p>
+<pre class="highlight objective_c"><code> <span class="n">BOOL</span> <span class="n">TeakNotificationIsCompleted</span><span class="p">(</span><span class="n">TeakNotification</span><span class="o">*</span> <span class="n">notif</span><span class="p">)</span>
+</code></pre>
 
                         </div>
                         <div class="declaration">
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Objective-C</p>
-                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">completed</span></code></pre>
+                            <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">completed</span><span class="p">;</span></code></pre>
 
                           </div>
                         </div>
@@ -587,7 +589,7 @@
       </div>
       <div class="footer-wrapper">
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://teak.io" target="_blank" rel="external">Teak.io,</a>. All rights reserved. (Last updated: 2020-10-21)</p>
+          <p>&copy; 2020 <a class="link" href="https://teak.io" target="_blank" rel="external">Teak.io,</a>. All rights reserved. (Last updated: 2020-10-27)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </div>

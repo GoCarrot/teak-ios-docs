@@ -86,6 +86,8 @@ Teak also exposes this functionality via a C API::
 
 Identify User, and Add Observers
 --------------------------------
+.. highlight:: objc
+
 As soon as your game knows how it will identify the current user in your own backend, you should tell Teak that identifyer.
 
 Teak will wait until ``[identifyUser:]`` is called before it will send ``NSNotificationCenter`` notifications to inform you about events (covered later).

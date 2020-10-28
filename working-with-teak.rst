@@ -51,6 +51,11 @@ Parameters
 
 .. note:: In the case of the C ``TeakIdentifyUser`` the ``optOutJsonArray`` parameter should be a JSON encoded array (or NULL). ``email`` can also be NULL.
 
+Example
+::
+
+    [[Teak sharedInstance] identifyUser:@"someuserid"];
+
 User Attributes
 ---------------
 Teak allows you to add a limited number of attributes to users. A maximum of 16 string and 16 numeric attributes can be used.
@@ -77,3 +82,64 @@ Parameters
     :key: The name of the user attribute.
 
     :value: Value to assign to the attribute.
+
+Example
+::
+
+    [[Teak sharedInstance] setStringAttribute:@"unicorn_slots" forKey:@"last_played_slot"];
+    [[Teak sharedInstance] setNumericAttribute:@123456 forKey:@"last_bet_amount"];
+
+Notifications
+-------------
+
+`TeakNotification Class Documentation <objc_output/Classes/TeakNotification.html>`_
+
+Scheduling a Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+::
+
+    + (nullable TeakNotification*)scheduleNotificationForCreative:(nonnull NSString*)creativeId
+                                                      withMessage:(nonnull NSString*)message
+                                                   secondsFromNow:(int64_t)delay
+
+::
+
+    TeakNotification* TeakNotificationSchedule(const char* creativeId, const char* message, int64_t delay)
+
+::
+
+    + (nullable TeakNotification*)scheduleNotificationForCreative:(nonnull NSString*)creativeId
+                                                   secondsFromNow:(int64_t)delay
+                                                       forUserIds:(nonnull NSArray*)userIds
+
+:: 
+
+    TeakNotification* TeakNotificationScheduleLongDistanceWithNSArray(const char* creativeId, int64_t delay, NSArray* userIds)
+
+::
+
+    TeakNotification* TeakNotificationScheduleLongDistance(const char* creativeId, int64_t delay, const char* inUserIds[], int inUserIdCount)
+
+Canceling a Scheduled Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+::
+
+    + (nullable TeakNotification*)cancelScheduledNotification:(nonnull NSString*)scheduleId
+
+::
+
+    TeakNotification* TeakNotificationCancel(const char* scheduleId)
+
+Cancel All Client-Scheduled Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This will cancel all of the notifications which were scheduled from client-side code using one of the ``scheduleNotificationForCreative`` variants.
+
+::
+
+    + (nullable TeakNotification*)cancelAll
+
+::
+
+    TeakNotification* TeakNotificationCancelAll()
+
