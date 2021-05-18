@@ -1,0 +1,8 @@
+4.0.0
+-----
+:Breaking Changes:
+    * Required ``MobileCoreServices.framework`` is now ``CoreServices.framework``
+:New Features:
+    * None
+:Bug Fixes:
+    * None
