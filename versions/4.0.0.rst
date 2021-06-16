@@ -6,3 +6,4 @@
     * None
 :Bug Fixes:
     * Fixed race condition in ``processDeepLinks``
+    * Fixed a bug where links created on the Teak Dashboard could only link to the teakXXXXX:// scheme.

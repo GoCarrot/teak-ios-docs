@@ -8,7 +8,7 @@ The following frameworks are required by Teak
 * AdSupport.framework
 * AVFoundation.framework
 * ImageIO.framework
-* CoreServices.framework
+* MobileCoreServices.framework
 * StoreKit.framework
 * UserNotifications.framework
 * CoreGraphics.framework
@@ -17,7 +17,7 @@ The following frameworks are required by Teak
 
 This is the list of dependencies as compiler flags::
 
-    -framework AdSupport -framework AVFoundation -framework CoreServices -framework StoreKit -framework UserNotifications -framework ImageIO -framework CoreGraphics -framework UIKit -framework SystemConfiguration
+    -framework AdSupport -framework AVFoundation -framework MobileCoreServices -framework StoreKit -framework UserNotifications -framework ImageIO -framework CoreGraphics -framework UIKit -framework SystemConfiguration
 
 Edit Info.plist
 ---------------
