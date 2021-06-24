@@ -22,5 +22,6 @@ The latest version of the Teak iOS is always available at:
     appledoc
     working-with-teak
     keychain-access-email
+    version-string-mismatch
     third-party
     changelog
