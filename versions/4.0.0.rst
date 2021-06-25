@@ -3,7 +3,7 @@
 :Breaking Changes:
     * Required ``MobileCoreServices.framework`` is now ``CoreServices.framework``
 :New Features:
-    * None
+    * Now using v2 Signatures for request signing (this is not a user-facing change).
 :Bug Fixes:
     * Fixed race condition in ``processDeepLinks``
     * Fixed a bug where links created on the Teak Dashboard could only link to the teakXXXXX:// scheme.
