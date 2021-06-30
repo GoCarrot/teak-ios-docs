@@ -4,6 +4,7 @@
     * Required ``MobileCoreServices.framework`` is now ``CoreServices.framework``
 :New Features:
     * Now using v2 Signatures for request signing (this is not a user-facing change).
+    * Added ``teakScheduleId`` and ``teakCreativeId`` to ``TeakNotification``
 :Bug Fixes:
     * Fixed race condition in ``processDeepLinks``
     * Fixed a bug where links created on the Teak Dashboard could only link to the teakXXXXX:// scheme.
