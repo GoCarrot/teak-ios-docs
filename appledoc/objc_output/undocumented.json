@@ -51,42 +51,42 @@
     },
     {
       "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
-      "line": 80,
+      "line": 90,
       "symbol": "TeakNotification.-initWithDictionary:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
-      "line": 82,
+      "line": 92,
       "symbol": "TeakNotification.+scheduleNotificationForCreative:withMessage:secondsFromNow:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
-      "line": 83,
+      "line": 93,
       "symbol": "TeakNotification.+scheduleNotificationForCreative:secondsFromNow:forUserIds:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
-      "line": 84,
+      "line": 94,
       "symbol": "TeakNotification.+cancelScheduledNotification:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
-      "line": 85,
+      "line": 95,
       "symbol": "TeakNotification.+cancelAll",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/pat/Code/teak-ios/Teak/TeakNotification.h",
-      "line": 87,
+      "line": 97,
       "symbol": "TeakNotification.-eventUserInfo",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
