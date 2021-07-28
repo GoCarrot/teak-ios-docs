@@ -1,3 +1,5 @@
+.. _keychain_access_email:
+
 Potential Loss of Keychain Access
 =================================
 If your iOS App Id Prefix has been changed inbetween builds uploaded to the App Store, or you have used a different prefix for building the app than the app extension, you will receive an automated email from Apple that looks like this::

@@ -1,3 +1,5 @@
+.. _version_string_mistatch_email:
+
 CFBundle(Short)VersionString Mismatch
 =====================================
 If the ``CFBundleShortVersionString`` or ``CFBundleVersionString`` in the notification service or content extension do not match their respective values in the host application, Apple will send an warning email.
