@@ -1,0 +1,9 @@
+4.1.0
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * Added a flag to preview SDK 5 changes, ``TeakSDK5Behaviors``
+        * Will no longer automatically collect Facebook Access Token, instead you must pass the Facebook User Id to ``[Teak identifyUser:withConfiguration:]``
+:Bug Fixes:
+    * None
