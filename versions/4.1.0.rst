@@ -8,4 +8,4 @@
     * Added flag to disable automatic push token refresh at app launch, ``TeakDoNotRefreshPushToken``
     * Added ``TeakPostLaunchSummary`` event which is posted with each app launch, with information about the launch.
 :Bug Fixes:
-    * The ``TeakLaunchedFromLink`` event is now properly posted when launching from a Teak reward link.
+    * When app is launched via an email link ``TeakNotificationAppLaunch`` event is now correctly posted.
